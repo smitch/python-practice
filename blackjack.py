@@ -36,7 +36,7 @@ class Player():
             assert True, "error! this line cannot be reached!"
 
 class DEALER(Player):
-    THRESHOLD=20
+    THRESHOLD=17
     def needs_card(self):
         if count_score(self.cards) < self.THRESHOLD:
             return True
